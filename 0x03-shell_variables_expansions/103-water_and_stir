@@ -1,2 +1,3 @@
 #!/bin/bash
-echo $(printf %o $(($(echo $WATER | tr 'water' '01234') + $(echo $STIR | tr 'stir.' '01234')))) | tr '01234567' 'bestchol'
+result=$(($(echo $WATER | tr 'ewrat' '01234') + $(echo $STIR | tr 'ti.ir' '01234')))
+echo $(printf %o "$result" | tr '01234567' 'bestchol')
